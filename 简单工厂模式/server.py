@@ -1,6 +1,7 @@
 class Operation(object):
     def __init__(self):
-        pass
+        self.NumberA=0
+        self.NumberB=0
     def GetResult(self):
         pass
 
