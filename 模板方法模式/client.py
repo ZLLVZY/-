@@ -1,0 +1,11 @@
+from server import *
+print('学生甲抄的试卷:')
+studentA=TestPaperA()
+studentA.TestQuestion1()
+studentA.TestQuestion2()
+studentA.TestQuestion3()
+print('学生乙抄的试卷:')
+studentB=TestPaperB()
+studentB.TestQuestion1()
+studentB.TestQuestion2()
+studentB.TestQuestion3()
